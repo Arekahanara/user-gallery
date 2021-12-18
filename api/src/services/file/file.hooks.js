@@ -4,14 +4,13 @@ const fileDownload = require('./hooks/file-download')
 const setDownloadUrl = require('./hooks/setDownloadUrl')
 const setUploadUrl = require('./hooks/setUploadUrl')
 const setUploadKey = require('./hooks/setUploadKey')
-const setUserId = require('./hooks/setUserId')
 
 module.exports = {
   before: {
     all: [paramsFromClient('$getSignedLinks')],
     find: [],
     get: [],
-    create: [setUserId(), setUploadKey(), fileUpload()],
+    create: [setUploadKey(), fileUpload()],
     update: [],
     patch: [],
     remove: []
