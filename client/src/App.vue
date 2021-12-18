@@ -1,3 +1,9 @@
+<script setup>
+import NavMain from './components/NavMain.vue'
+
+</script>
+
 <template>
-  <router-view/>
+  <NavMain />
+  <router-view />
 </template>

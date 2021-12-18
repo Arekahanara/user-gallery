@@ -8,9 +8,20 @@ import Upload from '../views/Upload.vue'
 // Each route should map to a component.
 // We'll talk about nested routes later.
 const routes = [
-  { path: '/', component: Home },
-  { path: '/gallery', component: Gallery },
-  { path: '/upload', component: Upload }
+  {
+    name: 'Home',
+    path: '/',
+    component: Home
+  },
+  {
+    name: 'Gallery',
+    path: '/gallery',
+    component: Gallery
+  },
+  { name: 'Upload',
+    path: '/upload', 
+    component: Upload
+  }
 ]
 
 // 3. Create the router instance and pass the `routes` option
