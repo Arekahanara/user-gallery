@@ -1,0 +1,19 @@
+{
+  "name": "user-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose build && docker-compose up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arekahanara/user-gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arekahanara/user-gallery/issues"
+  },
+  "homepage": "https://github.com/Arekahanara/user-gallery#readme"
+}
