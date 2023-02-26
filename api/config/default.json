@@ -1,0 +1,16 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "mongodb": "mongodb://mongodb:27017/api",
+  "aws-s3": {
+    "secretAccessKey": "SECRET",
+    "accessKeyId": "SECRET"
+  },
+  "s3-bucket": "alex-user-gallery",
+  "s3-folder": "local"
+}
