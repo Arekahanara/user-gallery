@@ -1,6 +1,6 @@
 # user-gallery
 
-User media upload
+Simply custom user media upload which can be used for different purposes.
 
 ```bash
 # install dependencies
